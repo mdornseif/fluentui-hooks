@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/mdornseif/fluentui-hooks/compare/v1.0.0...v1.0.1) (2022-02-20)
+
+
+### Bug Fixes
+
+* broken json ([4f0f42b](https://github.com/mdornseif/fluentui-hooks/commit/4f0f42ba947dcff5831ac78f53621725af095107))
+* do not include unused dependencies ([b3fe68b](https://github.com/mdornseif/fluentui-hooks/commit/b3fe68bbae5054ba0d014635f1f3762ec9c7de42))
+
 ## [1.0.1-beta.1](https://github.com/mdornseif/fluentui-hooks/compare/v1.0.0...v1.0.1-beta.1) (2022-02-20)
 
 
