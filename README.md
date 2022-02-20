@@ -2,6 +2,11 @@
 
 Helpful State Managements for Dialogs, Panels, etc in fluent-ui.
 
+[![version](https://img.shields.io/npm/v/fluentui-hooks.svg?style=flat-square)](https://npmjs.org/fluentui-hooks)
+[![license](https://img.shields.io/npm/l/fluentui-hooks?color=%23007a1f&style=flat-square)](https://github.com/mdornseif/fluentui-hooks/blob/master/LICENSE)
+[![downloads](https://img.shields.io/npm/dm/fluentui-hooks?style=flat-square&color=%23007a1f)](https://npmcharts.com/compare/fluentui-hooks)
+
+
 ## Plain fluent-ui components
 
 ### useTitle
