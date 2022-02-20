@@ -1,8 +1,9 @@
 {
   "name": "fluentui-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.1",
   "license": "MIT",
   "author": "Maximillian Dornseif",
+  "homepage": "https://github.com/mdornseif/fluentui-hooks",
   "main": "dist/index.js",
   "module": "dist/fluentui-hooks.esm.js",
   "typings": "dist/index.d.ts",
