@@ -1,3 +1,13 @@
+# [1.0.0](https://github.com/mdornseif/fluentui-hooks/compare/v0.1.6...v1.0.0) (2022-02-20)
+
+
+* Add Badges to README ([4c5820a](https://github.com/mdornseif/fluentui-hooks/commit/4c5820a17b6117c72ad2a53fee9f5f9b9188a12c))
+
+
+### BREAKING CHANGES
+
+* switch to semantic-release
+
 ## [0.1.6](https://github.com/mdornseif/fluentui-hooks/compare/v0.1.5...v0.1.6) (2022-02-20)
 
 
