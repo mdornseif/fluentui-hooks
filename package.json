@@ -35,23 +35,10 @@
   "jest": {
     "testEnvironment": "jsdom"
   },
-  "peerDependencies": {
-    "@fluentui/react": "^8.55.3",
-    "react": ">=16"
+  "dependencies": {
+    "lodash.camelcase": "^4.0.0",
+    "use-query-params": "^1.2.0"
   },
-  "engines": {
-    "node": ">=12"
-  },
-  "size-limit": [
-    {
-      "path": "dist/fluentui-hooks.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/fluentui-hooks.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@fluentui/react": "^8.55.3",
@@ -74,10 +61,25 @@
     "react-is": "^17.0.2",
     "size-limit": "^7.0.8",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "wouter": "^2.7.0"
   },
-  "dependencies": {
-    "lodash.camelcase": "^4.3.0",
-    "use-query-params": "^1.2.3"
-  }
+  "peerDependencies": {
+    "@fluentui/react": "^8.0.0",
+    "react": ">=16",
+    "wouter": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "size-limit": [
+    {
+      "path": "dist/fluentui-hooks.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/fluentui-hooks.esm.js",
+      "limit": "10 KB"
+    }
+  ]
 }
