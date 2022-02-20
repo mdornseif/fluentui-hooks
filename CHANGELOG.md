@@ -5,6 +5,13 @@
 
 * build ([fcb33bd](https://github.com/mdornseif/fluentui-hooks/commit/fcb33bdf85c0ea01b35dbd85531f06209efbf2e5))
 
+## [0.1.6](https://github.com/mdornseif/fluentui-hooks/compare/v0.1.5...v0.1.6) (2022-02-20)
+
+
+### Bug Fixes
+
+* build ([fcb33bd](https://github.com/mdornseif/fluentui-hooks/commit/fcb33bdf85c0ea01b35dbd85531f06209efbf2e5))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
