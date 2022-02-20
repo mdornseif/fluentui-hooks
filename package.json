@@ -1,6 +1,6 @@
 {
   "name": "fluentui-hooks",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Maximillian Dornseif",
   "main": "dist/index.js",
@@ -37,13 +37,14 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
-    "@semantic-release/changelog": "^6.0.1",
     "lodash.camelcase": "^4.0.0",
     "use-query-params": "^1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
     "@fluentui/react": "^8.55.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@size-limit/preset-small-lib": "^7.0.8",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-info": "^5.3.21",
