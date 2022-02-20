@@ -1,3 +1,10 @@
+/*
+ * package.json
+ * 
+ * Created by Dr. Maximillian Dornseif 2022-02-20 in fluentui-hooks 1.0.1-beta.1
+ * Copyright (c) 2022 HUDORA GmbH
+ */
+
 {
   "name": "fluentui-hooks",
   "version": "1.0.1-beta.1",
@@ -122,6 +129,9 @@
           "assets": [
             "CHANGELOG.md"
           ]
+          ,
+            "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+          
         }
       ],
       "@semantic-release/npm",
