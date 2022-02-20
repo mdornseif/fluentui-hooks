@@ -1,6 +1,6 @@
 {
   "name": "fluentui-hooks",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "author": "Maximillian Dornseif",
   "main": "dist/index.js",

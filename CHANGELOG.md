@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/mdornseif/fluentui-hooks/compare/v0.1.4...v0.1.5) (2022-02-20)
+
+
+### Bug Fixes
+
+* typing (again) ([9508f61](https://github.com/mdornseif/fluentui-hooks/commit/9508f6148be8cf0adc4653d92b623f1226dfe0ed))
+
 ### [0.1.4](https://github.com/mdornseif/fluentui-hooks/compare/v0.1.3...v0.1.4) (2022-02-20)
 
 
