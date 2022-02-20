@@ -5,13 +5,17 @@
  * Copyright (c) 2022 Maximillian Dornseif
  */
 
-import { INavLinkGroup, Nav } from '@fluentui/react/lib/Nav'
+import { INavLink, INavLinkGroup, Nav } from '@fluentui/react/lib/Nav'
 import { Stack } from '@fluentui/react/lib/Stack'
 import React from 'react'
 import { Route, useLocation, useRouter } from 'wouter'
 
+export interface ISidebarNavLink extends INavLink {
+  component: JSX.Element
+}
+
 interface ISidebarPropsItem extends Omit<INavLinkGroup, 'links'> {
-  links: Array<JSX.Element>
+  links: Array<INavLink>
 }
 export interface ISidebarProps extends Record<string, ISidebarPropsItem> {}
 
@@ -26,7 +30,7 @@ export function WithSidebar(props: { items: ISidebarProps; children?: React.Reac
     const links = []
     let collapseByDefault: boolean = gr.collapseByDefault || false
     for (const item of gr.links) {
-      const key = `${grname}-${item.title}`
+      const key = `${grname}-${item?.title}`
       const [match] = router.matcher(`${item.path}/:p*`, location)
       // invariant(!item?.path.endsWith('/'), `${item?.path} must not end with /`)
       if (match) {
@@ -34,7 +38,7 @@ export function WithSidebar(props: { items: ISidebarProps; children?: React.Reac
         collapseByDefault = false
       }
       links.push({
-        key: key,
+        key,
         name: item.title,
         onClick: () => navigate(`${item?.path}`),
       })

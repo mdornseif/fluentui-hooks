@@ -30,8 +30,8 @@ export function useDialog(title: string, subText = ''): [() => void, object, boo
       isBlocking: true,
     },
     dialogContentProps: {
-      title: title,
-      subText: subText,
+      title,
+      subText,
       type: DialogType.normal, // DialogType.medium,
       closeButtonAriaLabel: `${title} Dialog schließen`,
       // isMultiline
