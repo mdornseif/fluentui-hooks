@@ -15,7 +15,7 @@ export interface ISidebarNavLink extends Omit<INavLink, 'name'& 'url'> {
 }
 
 interface ISidebarPropsItem extends Omit<INavLinkGroup, 'links'> {
-  links: Array<INavLink>
+  links: Array<ISidebarNavLink>
 }
 export interface ISidebarProps extends Record<string, ISidebarPropsItem> {}
 
