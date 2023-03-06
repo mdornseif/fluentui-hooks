@@ -2,8 +2,8 @@ name: Test, Build, and release
 on:
   push:
     branches:
-      - main
       - master
+      - main
 permissions:
   actions: read
   checks: read
@@ -84,6 +84,7 @@ jobs:
       #   run: npx semantic-release
 
       - name: Deploy storybook to GitHub Pages 📚
-        run: yarn run storybook-deploy --ci
+        run: yarn run doc:build ; yarn run doc:publish
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
