@@ -1,6 +1,6 @@
 /*
  * Sidebar.tsx easy usage with wouter
- * 
+ *
  * Created by Dr. Maximillian Dornseif 2021-09-10 in huWaWi3-frontend
  * Copyright (c) 2022 Maximillian Dornseif
  */
@@ -10,7 +10,7 @@ import { Stack } from '@fluentui/react/lib/Stack'
 import React from 'react'
 import { Route, useLocation, useRouter } from 'wouter'
 
-export interface ISidebarNavLink extends Omit<INavLink, 'name'& 'url'> {
+export interface ISidebarNavLink extends Omit<INavLink, 'name' & 'url'> {
   component: JSX.Element
 }
 

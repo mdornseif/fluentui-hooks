@@ -16,11 +16,11 @@ export function usePanel(title: string): [() => void, object, boolean, () => voi
   const openPanel = useCallback(() => {
     setIsPanelOpen(true)
     setIsPanelOpenSP(true)
-  }, [])
+  }, [setIsPanelOpen, setIsPanelOpenSP])
   const dismissPanel = useCallback(() => {
     setIsPanelOpen(false)
     setIsPanelOpenSP(undefined)
-  }, [])
+  }, [setIsPanelOpen, setIsPanelOpenSP])
 
   const panelProps = {
     dataTestId: `${title}Panel`,
