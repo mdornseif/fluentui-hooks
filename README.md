@@ -6,6 +6,8 @@ Helpful State Managements for Dialogs, Panels, etc in [fluent-ui](https://develo
 [![license](https://img.shields.io/npm/l/fluentui-hooks?color=%23007a1f&style=flat-square)](https://github.com/mdornseif/fluentui-hooks/blob/master/LICENSE)
 [![downloads](https://img.shields.io/npm/dm/fluentui-hooks?style=flat-square&color=%23007a1f)](https://npmcharts.com/compare/fluentui-hooks)
 
+Version 2 moved from `use-query-params` 1.x to 2.x.
+
 ## Plain fluent-ui components
 
 ### useTitle
