@@ -1,6 +1,6 @@
 # fluentui-hooks
 
-Helpful State Managements for Dialogs, Panels, etc in [fluent-ui](https://developer.microsoft.com/en-us/fluentui#/).
+Helpful State Managements for Dialogs, Panels, etc in [fluent-ui](https://developer.microsoft.com/en-us/fluentui#/) 8.
 
 [![version](https://img.shields.io/npm/v/fluentui-hooks.svg?style=flat-square)](https://npmjs.org/fluentui-hooks)
 [![license](https://img.shields.io/npm/l/fluentui-hooks?color=%23007a1f&style=flat-square)](https://github.com/mdornseif/fluentui-hooks/blob/master/LICENSE)

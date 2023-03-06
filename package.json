@@ -94,12 +94,12 @@
     "tslib": "^2.3.1",
     "typescript": "^4.5.5",
     "webpack": "5",
-    "wouter": "^2.10.0"
+    "wouter": "2"
   },
   "peerDependencies": {
-    "@fluentui/react": "^8.0.0",
+    "@fluentui/react": "8",
     "react": ">=18",
-    "wouter": "^2.10.0"
+    "wouter": "2"
   },
   "engines": {
     "node": ">=16"
