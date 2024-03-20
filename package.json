@@ -59,8 +59,7 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
-    "lodash.camelcase": "^4.0.0",
-    "use-query-params": "^2.2.0"
+    "lodash.camelcase": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
@@ -97,6 +96,7 @@
     "wouter": "2"
   },
   "peerDependencies": {
+    "use-query-params": "^2.2.0",
     "@fluentui/react": "8",
     "react": ">=18",
     "wouter": "2"
