@@ -8,6 +8,8 @@ Helpful State Managements for Dialogs, Panels, etc in [fluent-ui](https://develo
 
 Version 2 moved from `use-query-params` 1.x to 2.x.
 
+Version 2 moved from `wouter` Version 2.x to 3.x.
+
 ## Plain fluent-ui components
 
 ### useTitle
