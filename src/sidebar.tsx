@@ -8,7 +8,7 @@
 import { INavLink, INavLinkGroup, Nav } from '@fluentui/react/lib/Nav'
 import { Stack } from '@fluentui/react/lib/Stack'
 import React from 'react'
-import { Route, useLocation, useRouter } from 'wouter'
+import { matchRoute, Route, useLocation, useRouter } from 'wouter'
 
 export interface ISidebarNavLink extends Omit<INavLink, 'name' & 'url'> {
   component: JSX.Element
@@ -31,7 +31,7 @@ export function WithSidebar(props: { items: ISidebarProps; children?: React.Reac
     let collapseByDefault: boolean = groupData.collapseByDefault || false
     for (const item of groupData.links) {
       const key = `${groupName}-${item?.title}`
-      const [match] = router.matcher(`${item.path}/:p*`, location)
+      const [match] = matchRoute(router.parser, `${item.path}/:p*`, location, true)
       // invariant(!item?.path.endsWith('/'), `${item?.path} must not end with /`)
       if (match) {
         selectedKey = key
