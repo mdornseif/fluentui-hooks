@@ -100,7 +100,7 @@
     "@fluentui/react": "8",
     "react": ">=18",
     "use-query-params": "^2.2.1",
-    "wouter": "2"
+    "wouter": "3"
   },
   "engines": {
     "node": ">=16"
